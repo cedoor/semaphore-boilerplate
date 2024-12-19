@@ -21,6 +21,26 @@ export default function PageContainer({
                 return `https://sepolia.etherscan.io/address/${address}`
             case "arbitrum-sepolia":
                 return `https://sepolia.arbiscan.io/address/${address}`
+            case "optimism-sepolia":
+                return `https://sepolia-optimism.etherscan.io/address/${address}`
+            case "polygon-amoy":
+                return `https://amoy.polygonscan.com/address/${address}`
+            case "arbitrum":
+                return `https://arbiscan.io/address/${address}`
+            case "polygon":
+                return `https://polygonscan.com/address/${address}`
+            case "optimism":
+                return `https://optimistic.etherscan.io/address/${address}`
+            case "base-sepolia":
+                return `https://sepolia.basescan.org/address/${address}`
+            case "linea-sepolia":
+                return `https://sepolia.lineascan.build/address/${address}`
+            case "base":
+                return `https://basescan.org/address/${address}`
+            case "linea":
+                return `https://lineascan.build/address/${address}`
+            case "scroll-sepolia":
+                return `https://sepolia.scrollscan.com/address/${address}`
             default:
                 return ""
         }
